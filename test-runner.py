@@ -121,7 +121,7 @@ class TestAssignmentFour(unittest.TestCase):
                   [ 4,  8, 12, 16, 20],
                   [ 5, 10, 15, 20, 25]]))
 
-asgmt = importlib.import_module("asgmt-four-answer")
+asgmt = importlib.import_module("asgmt-four")
 suite = unittest.TestLoader().loadTestsFromTestCase(TestAssignmentFour)
 runner = unittest.TextTestRunner(verbosity=2)
 test_results = runner.run(suite)
